@@ -1,0 +1,65 @@
+/* ---GENERAL ---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Pantalla completa*/
+    height: 100vh; 
+    /*Organizar componentes*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*Fondo*/
+    background:linear-gradient(rgb(47,150,163), rgb(48, 62, 143));
+    /*Fuente*/
+    font-family: sans-serif;
+    color: white; 
+}
+/* --- COMMON CARACTERISTICS ----*/
+.location,.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* -- - LOCATION ----*/
+
+.location-timezone{
+    padding: 1rem;
+    margin: 5rem;
+    letter-spacing: 2px;
+}
+
+.location p{
+    padding: 1rem;
+    margin: 2rem;
+    
+}
+
+/* --- TEMPERATURE ----*/
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section span{
+    margin-left: 1.2rem;
+}
+.degree-section h2{
+    font-size: 3rem;
+}
+.temperature-description{
+    letter-spacing: 2px;
+    font-family: fantasy;
+}
+
+
