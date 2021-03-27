@@ -5,5 +5,5 @@
 
 -  **OpenWeatherCondition**  **API** (https://openweathermap.org/current) 
 	>For the temperature and weather condition data.
-- **Skicons** **icons** (https://darkskyapp.github.io/skycons/ )
+- **Skycons** **icons** (https://darkskyapp.github.io/skycons/ )
 	> Show interactive icons according to the weather conditions.
